@@ -1,0 +1,30 @@
+{
+  "algorithm": "Multi-Layer (3 layers)",
+  "metadata": {
+    "filename": "test_sample.py",
+    "original_size": 335,
+    "timestamp": "2026-04-03T18:21:28.476670",
+    "version": "2.0.0",
+    "salt": "UwS/o3D0cEUq+aODFAKKUGVKHIrmkpGzrEswOIuEwd8=",
+    "kdf": "pbkdf2",
+    "layers": 3,
+    "layer_keys": [
+      {
+        "salt": "RExXXOLJoJeMwpZmb8QJQYVtRBR7weSVQjSy2Ch3Ji0=",
+        "key_index": 0
+      },
+      {
+        "salt": "7HrLqhQRMOh9lFzAHbSZ8JmWkHkKdd0fGcNh/HDNHwE=",
+        "key_index": 1
+      },
+      {
+        "salt": "pxSpZbm3cbXHq1KJPUNPR06O4PuxVG1i71asU6jt8Lk=",
+        "key_index": 2
+      }
+    ]
+  },
+  "nonce": "FFaAiquWrUn2fEjB",
+  "ciphertext": "/kpYfrkl4HzVLEQIRyFKF3LDM23jjoua9Rj25Q1kuyhkiPJ9/eXFGAtg/5zkycUaJ+ybAj5FnyU9b796gAOsvTlh7mM+NGqP6okdQGq0mkYRejAj1H83CLdynnK5zXM5oFStq3MF981n5w4pBzP07Hzs8WB5ZPR8FO897+e3K59mIY8ctFCciTXFMPJRqwiJ8xpt7iXUYB9yHzvmB3qq14zCczvgcCoNhmFjaIO+qEA+RFAVWNC8Uq5GIkQoGb5qFXgM5jUSSs99LjwmENiciG1r8DrnoodqgbUsu8eSE6tlQ/WWtih+zHKIkH7PSg4ngKGQbBiHPepSNj3mwUDhm5L67jyvjRQx1aydiOv1EJAt/6RTiE0Pl2G1GAnK4TRfw2dS9HgJgEYmQTFZBIkYzYKonOQtO4XsYktiUBTAhM5H/VKvDrAzKd5rKT8mpl07Op/FSNhKMzByrhHRmMDw0Dkq422K3a5ugHhlvlk+yfFuZNtXQNL6qqiE/tHqm5E=",
+  "tag": "8W5k21dA0vqqqIT+0eqbkQ==",
+  "integrity": "RLAas4qQQih+dgkwhFGGfZ0OgkxsBZ+/GUrH14uddTM="
+}

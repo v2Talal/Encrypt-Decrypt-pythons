@@ -1,0 +1,15 @@
+{
+  "algorithm": "ChaCha20-Poly1305",
+  "metadata": {
+    "filename": "test_sample.py",
+    "original_size": 335,
+    "timestamp": "2026-04-03T18:21:28.037941",
+    "version": "2.0.0",
+    "salt": "xDQKbZTbA3zmvfuTUbQyMHUpkT7El4Y2zQ0bOLAmgAA=",
+    "kdf": "pbkdf2"
+  },
+  "nonce": "0SBS5hobVgz+Imd/",
+  "ciphertext": "qWGhGkdrvUlvkUsqFrYA4TrimFn82+iclmvoudLRen4Wr+3dSeweN35YQ0OvAoLjDPw7Oh7bB3Tl3rCpAqV88hC+nPLnpKs9T6qRXoGrqoDRfNO0xB2aFxmR/JZ86bOWqYlvHjK1/+M3m39OfI0pkSfy6t04VxTRx69pvUWo/ddxS/H7qKJ38dlIyKZIssOdjNLkxImFyQBuiyGEmuKv4MFFz6JxkNt5paZcgPW1Prwu9UquGL8PDrF25mSEOK//UseOre1FR0Eenc8SlTlCm/haHuSkiE7yrXpsN1LaKsRVugCAbcQfz6pQl9NDEW03LQhd9ojwPQRHiVRfhZZ80B88g3CC2RCKwJ2pnekZLCmHPaP9elKMR+T0+soVvS/MOab+boG95hhr6RiJRetLytnGjNWcTZfpT0Xwd+GLl/iS6fkKywQMhAJyh+NzS/0=",
+  "tag": "tTfkpPxbHeLPTLn2XN9hqA==",
+  "integrity": "rjnJvhDFJ5AR0Gs0rpRXVg5OsZ+8w2i3lgN00e8cQfk="
+}

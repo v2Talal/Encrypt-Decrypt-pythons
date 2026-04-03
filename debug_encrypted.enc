@@ -1,0 +1,16 @@
+{
+  "algorithm": "AES-256-GCM",
+  "metadata": {
+    "algorithm": "aes-gcm",
+    "original_size": 335,
+    "timestamp": "2026-04-03T17:51:25.191308",
+    "version": "2.0.0",
+    "filename": "test_sample.py",
+    "kdf": "pbkdf2",
+    "salt": "PAbW8qWDo1bbxOsPmGtpHvBp418VFfacWrXLVNn78GY="
+  },
+  "nonce": "nTws6l18uPxkAZLj",
+  "ciphertext": "0MyAyAorgYIANvx5KoqCNY7FZAFr/xnJhdGmelc4lxHK8jBRN65mTOw+ClODlcl/LZu6G4JTkfrwqkJCgTIH45IWuv34eR4vnW8dOK9Mu1DiKSDK0pBPpH2fV1RoSgHE9Fi6rtUxmtfNXa1u+tV6CidjRE6mrfMmMmXARoI5ttQuuzJImmoacmbEr52DavxBvHuxAkX4d7/6TfVoacmzv82+Eg2xKeI/gVvviXFy54NfCphSV1QdJv2CpuiC3MpXUPyzsWvomVgP4FKi6C3d9MpON0zruSbIzjdbRoF88UN0lhkFTurM4J37Gj7g8kY88LoPRr3iMbfbNMLiDVClPs8t1cKjzmsaPHpel7rd0zJhq/zhf0jp5F9kk1wxgxKkJacYVtwAYFZXaOQEm+hr7ozDyqSSjLUXgLiURXvlaAhHV/FHNPZ5ASUSx6vvvO4=",
+  "tag": "vEE+yznw2f/R3/K8fKIwkQ==",
+  "integrity": "dummy"
+}

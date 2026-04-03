@@ -1,0 +1,15 @@
+{
+  "algorithm": "AES-256-GCM",
+  "metadata": {
+    "filename": "test_sample.py",
+    "original_size": 335,
+    "timestamp": "2026-04-03T17:51:31.116088",
+    "version": "2.0.0",
+    "salt": "P4jqnTI6lWMBkZ05Xv1NLy7G3XKmGwFNU30ep/aomag=",
+    "kdf": "pbkdf2"
+  },
+  "nonce": "OXzCSgnbYBwjrNBR",
+  "ciphertext": "Pn2QKKyHV4PRvcrlN+enqT/I7VLkAHnSjiHsV3LsiiHHL/Qquf0vuZwQNmHQo0jcKR58NHAJpkOg7U1i/BCDbEkEnFfbru2Jr/xsEGT328P4DrBqbNo/JYDe6YG+F8rA1C/9A1RBuxPq34mprPGuVaKTjj8jV80ghCKZpoTmeRyxLdlyTeLX6Zv4HduYtyrb5Up/FgMEvFiZhEEL3lzTIwIKIQSedFM3rIUhZNXqX/mMSBJDbbRV8wHQuCggUzkYhlIDPeVyAOXzVfkt3WA42PeJeX6fhYWmvaK2V81nQvoUGOywCar+k1AAC4KleFyRKlxo7blX+cB8IvNxYPhv4MuaCAT47ow9d5DYdCcPgZVzpByRkorAqSwVXe5lp6gB+yWzs2K6WkfPaZ3U7VReU0l2VQHJ25DXI5AdyoD9uYJVUGPTJQLJrs8rDcSu9F4=",
+  "tag": "Oq/hyzxVA72GgzLfRQN+Pg==",
+  "integrity": "Q5G4eVx+CBIyPNf6wOmEZbll+2tKuXdP5B1xHXCO4Mg="
+}
