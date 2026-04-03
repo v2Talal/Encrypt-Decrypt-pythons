@@ -1,54 +1,100 @@
-layers of decoding and encoding 
+# Professional Cryptography System v2.0
 
-- **Multi-Layer Encryption**: used 12 layers of encryption to protect your Python files
-- **thorough Encryption Procedures**: detailing  layers of encryption  and decryption  
-- **Simple Command-Line Interface**: Python files may be easily encrypted and decrypted with a simple command line.
+A production-grade file encryption system implementing industry-standard cryptographic algorithms.
 
-# The Encryption Process
+## Features
 
-The encryption process consists of the following steps:
+### Encryption Algorithms
+- **AES-256-GCM**: Advanced Encryption Standard (NIST approved)
+- **ChaCha20-Poly1305**: Modern high-speed cipher
+- **Multi-Layer**: Multiple encryption layers for maximum security
 
-1. **Base64 Encoding**
-2. **Zlib Compression**
-3. **Marshal Serialization**
-4. **Repeatedly the processes 12 time**
+### Key Derivation
+- **PBKDF2-HMAC-SHA256**: 114,621 iterations
+- **Argon2id**: Memory-hard function (recommended)
 
+### Security Features
+✓ Authenticated Encryption (AEAD)
+✓ Integrity Verification (HMAC)
+✓ Tamper Detection
+✓ Secure Random Generation
+✓ Wrong Password Detection
 
-- **To encrypt a Python file, perform the following steps:**
+## Installation
 
-### 1. Clone the Repository
-`git clone https://github.com/v2Talal/Encrypt_Decrypt_Py`
+```bash
+pip install cryptography argon2-cffi
+```
 
-`cd Encrypt_Decrypt_Py`
+## Usage
 
-#### Options:
+### Command Line
 
-- `python encrypt_decrypt.py --encode <input_file>`
-  
-- Replace `<input_file>` with the path to the Python file you want to encrypt.
+```bash
+# Encrypt a file
+python professional_crypto.py -e myfile.py -o myfile.enc
 
-To decrypt an encrypted Python file, use the `--decode` option:
+# Decrypt a file
+python professional_crypto.py -d myfile.enc -o myfile_decrypted.py
 
-- `python encrypt_decrypt.py --decode <input_file>`
+# Use ChaCha20 algorithm
+python professional_crypto.py -e myfile.py -a chacha20
 
+# Multi-layer encryption (3 layers)
+python professional_crypto.py -e myfile.py -a multi-layer -l 3
 
-**Usages Options** 
-````
-python encrypt_decrypt.py --encode <input_file>{
+# Use Argon2 key derivation
+python professional_crypto.py -e myfile.py --no-argon2  # Disable Argon2, use PBKDF2
+```
 
-python encrypt_decrypt.py --decode <input_file>
+### Python API
 
-python encrypt_decrypt.py -e <input_file>
+```python
+from professional_crypto import ProfessionalCrypto
 
-python encrypt_decrypt.py -d <input_file>
-````
+crypto = ProfessionalCrypto()
 
-> [!NOTE]
-You must have python
-> 
-- Python 3.x 
+# Encrypt
+crypto.encrypt_file(
+    input_path='myfile.py',
+    output_path='myfile.enc',
+    password='SecurePassword123!',
+    algorithm='aes-gcm',  # or 'chacha20', 'multi-layer'
+    layers=1,
+    use_argon2=True
+)
 
+# Decrypt
+crypto.decrypt_file(
+    input_path='myfile.enc',
+    output_path='myfile_decrypted.py',
+    password='SecurePassword123!'
+)
+```
+
+## Testing
+
+Run the comprehensive test suite:
+
+```bash
+python test_crypto.py
+```
+
+Tests include:
+- AES-256-GCM encryption/decryption
+- ChaCha20-Poly1305 encryption/decryption
+- Multi-layer encryption
+- Argon2id key derivation
+- Wrong password detection
+- Data integrity & tamper detection
+
+## Security Notes
+
+1. **Password Strength**: Use strong, unique passwords (minimum 12 characters)
+2. **Key Derivation**: Argon2id is recommended for maximum security
+3. **Backup**: Always keep backups of important encrypted files
+4. **Memory**: Multi-layer encryption uses more memory and time
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT License
